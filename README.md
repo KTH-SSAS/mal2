@@ -1,3 +1,4 @@
+```
 asset Host {
    | compromise -> buckets.delete
 }
@@ -13,3 +14,4 @@ asset Bucket {
         I  self, any(account), any(host)
     }
 }
+```
